@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Explore Curated Music</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f2b2fa50f3.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src = "js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body onload="loadpics()">
+    <div class="body">
+
+    <div id="navigation">
+
+      <i class="fa fa-bars" aria-hidden="true" onclick = "shownavbar()"></i>
+
+      <form>
+        <label> Subscribe <input type='email' name = 'email' placeholder="youremail@domain.com"> </label>
+    		<input type = 'submit' value = "Submit">
+      </form>
+
+    <nav id='navbar'>
+      <a href="index.html">Home</a>
+      <a href="index.html#About">About</a>
+      <a href="#Latest">Playlists</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </div>
+
+    <div class="playlistpage">
+      <h1>Summer Vibes Playlist</h1>
+      <div id="container">
+        <div id='playlistimage'>
+          <img src="images/Playlists/summer.jpg" alt="Image palm trees">
+        </div>
+        <div id='playlist'>
+          <iframe src="https://open.spotify.com/embed/playlist/65JOX4N415Qu3UxavBg2vk" height="380" allow="encrypted-media"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div id="Latest">
+      <h2>Listen to the latest playlists!</h2>
+      <section class=playlistcontainer>
+        <a class = 'playlistimage' id='chilledm' href="chilledm.html" > Chill EDM </a>
+        <a class = 'playlistimage' id='classicrock' href="classicrock.html"> Classic Rock </a>
+        <a class = 'playlistimage' id='jazz' href="jazz.html">Jazz</a>
+      </section>
+      <section class=playlistcontainer>
+        <a class = 'playlistimage' id='summer' href="summervibes.html">Summer Vibes</a>
+        <a class = 'playlistimage' id='saxophonechill' href="saxophonehouse.html">Saxophone House</a>
+        <a class = 'playlistimage' id='sundaymorning' href="sundaymorning.html">Sunday Morning</a>
+      </section>
+      <section class=playlistcontainer>
+        <a class = 'playlistimage' id='punkrock' href="punkrock.html">Punk Rock</a>
+        <a class = 'playlistimage' id='roadtrip' href="roadtrip.html">Road Trip</a>
+        <a class = 'playlistimage' id='ambient' href="ambient.html">Ambient Music</a>
+      </section>
+    </div>
+
+
+
+  <footer id="contact">
+    <h3>Contact: </h3>
+    <p>Dhruv Gupta | dhruvg.1990@gmail.com <br>
+      Developed from scratch <br>
+      For Web Development for Everyone Capstone Project <br>
+      <br>
+      <br>
+    </p>
+  </footer>
+
+  </div>
+</body>
+
+</html>
